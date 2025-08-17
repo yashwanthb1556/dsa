@@ -27,6 +27,14 @@
     A -> B -> c
 ```
 
+```
+def preorder(root):
+    if not root: return
+    print(root.value)
+    preorder(root.left)
+    preorder(root.right)
+```
+
 ** Inorder Traversal **
 - Left -> Root -> Right
 ```
@@ -34,4 +42,30 @@
        / \
       B   c
       B -> A -> c
+```
+
+```
+def inorder(root):
+    if not root: return
+    inorder(root.left)
+    print(root.value)
+    inorder(root.right)
+```
+
+
+** Postorder Traversal **
+- Left -> Right -> Root
+```
+        A
+       / \
+      B   c
+    B -> c -> A
+```
+
+```
+def postorder(root):
+    if not root: return
+    postorder(root.left)
+    postorder(root.right)
+    print(root.value)
 ```
