@@ -17,7 +17,7 @@
 - BFS
     - Level order traversal
 
-** Preorder Traversal **
+**Preorder Traversal**
 - Root -> Left -> right
 
 ```
@@ -35,7 +35,7 @@ def preorder(root):
     preorder(root.right)
 ```
 
-** Inorder Traversal **
+**Inorder Traversal**
 - Left -> Root -> Right
 ```
         A
@@ -53,7 +53,7 @@ def inorder(root):
 ```
 
 
-** Postorder Traversal **
+**Postorder Traversal**
 - Left -> Right -> Root
 ```
         A
