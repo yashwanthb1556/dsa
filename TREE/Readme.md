@@ -16,3 +16,22 @@
     - PostOrder
 - BFS
     - Level order traversal
+
+** Preorder Traversal **
+- Root -> Left -> right
+
+```
+            A
+        /       \
+       B          c
+    A -> B -> c
+```
+
+** Inorder Traversal **
+- Left -> Root -> Right
+```
+        A
+       / \
+      B   c
+      B -> A -> c
+```
